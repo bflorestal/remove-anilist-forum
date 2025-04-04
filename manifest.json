@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "AniList Hide Forum & Reviews",
+  "version": "1.0",
+  "description": "Toggle on/off the Forum button, the Forum Activity and the Recent Reviews sections on AniList.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": ["*://anilist.co/*"],
+  "content_scripts": [
+    {
+      "matches": ["*://anilist.co/*"],
+      "js": ["contentScript.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+  }
+}
