@@ -8,5 +8,5 @@ A browser extension to remove the following on Anilist:
 
 TODO:
 - [x] `manifest.json` file
-- [ ] script that removes forum sections
+- [x] script that removes forum sections
 - [ ] extension popup UI
