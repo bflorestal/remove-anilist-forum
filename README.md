@@ -9,4 +9,5 @@ A browser extension to remove the following on Anilist:
 TODO:
 - [x] `manifest.json` file
 - [x] script that removes forum sections
-- [ ] extension popup UI
+- [x] extension popup UI
+- [ ] deal with Recent Reviews not loading instantly
