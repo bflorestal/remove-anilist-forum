@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Options AniList Filter</title>
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 10px;
+      }
+      label {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+      }
+      #toggleCheckbox {
+        margin-right: 8px;
+      }
+      .status {
+        font-weight: bold;
+        margin-top: 5px;
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <label>
+      <input type="checkbox" id="toggleCheckbox" />
+      Hide "Forum" and "Reviews" sections
+    </label>
+    <div class="status" id="statusText"></div>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
